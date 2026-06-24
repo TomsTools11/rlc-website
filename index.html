@@ -5,6 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>RLC Insurance Agency | Renee Curtis, Premium Asset Protection in California</title>
 <meta name="description" content="RLC Insurance Agency, led by Renee Curtis, delivers premium asset protection across California. Auto, home, umbrella, and life coverage backed by Allstate. Sausalito, CA." />
+
+<!-- Canonical & indexing -->
+<link rel="canonical" href="https://rlc-website-demo.vercel.app/" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#b01e28" />
+<meta name="author" content="RLC Insurance Agency" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="/rlc-logo-dark.png" />
+<link rel="apple-touch-icon" href="/rlc-logo-dark.png" />
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="RLC Insurance Agency" />
+<meta property="og:title" content="RLC Insurance Agency | Premium Asset Protection in California" />
+<meta property="og:description" content="Concierge-level auto, home, umbrella, and life coverage for California families, led personally by Renee Curtis and backed by Allstate." />
+<meta property="og:url" content="https://rlc-website-demo.vercel.app/" />
+<meta property="og:image" content="https://rlc-website-demo.vercel.app/rlc-logo-dark.png" />
+<meta property="og:image:alt" content="RLC Insurance Agency logo" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="RLC Insurance Agency | Premium Asset Protection in California" />
+<meta name="twitter:description" content="Concierge-level auto, home, umbrella, and life coverage for California families, led personally by Renee Curtis and backed by Allstate." />
+<meta name="twitter:image" content="https://rlc-website-demo.vercel.app/rlc-logo-dark.png" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -331,6 +358,36 @@
     header.nav.scrolled .logo-img{height:62px}
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "InsuranceAgency",
+  "name": "RLC Insurance Agency",
+  "@id": "https://rlc-website-demo.vercel.app/",
+  "url": "https://rlc-website-demo.vercel.app/",
+  "logo": "https://rlc-website-demo.vercel.app/rlc-logo-dark.png",
+  "image": "https://rlc-website-demo.vercel.app/rlc-logo-dark.png",
+  "description": "Premium asset protection for California families and professionals — auto, home, umbrella, and life coverage backed by Allstate.",
+  "telephone": "+1-415-331-5763",
+  "founder": { "@type": "Person", "name": "Renee Curtis" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "305 Caledonia St",
+    "addressLocality": "Sausalito",
+    "addressRegion": "CA",
+    "postalCode": "94965",
+    "addressCountry": "US"
+  },
+  "areaServed": { "@type": "State", "name": "California" },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  }],
+  "parentOrganization": { "@type": "Organization", "name": "Allstate" }
+}
+</script>
 </head>
 <body>
 
@@ -360,7 +417,7 @@
 <header class="nav" id="nav">
   <div class="wrap nav-inner">
     <a href="#home" class="brand">
-      <img class="logo-img" src="rlc-logo.png" alt="RLC Insurance Agency"
+      <img class="logo-img" src="rlc-logo-dark.png" alt="RLC Insurance Agency"
            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';this.parentElement.querySelector('.name').style.display='block'" />
       <svg class="logo" style="display:none"><use href="#rlc-logo"/></svg>
       <span class="name" style="display:none"><b>RLC</b><span>Insurance Agency</span></span>
@@ -662,12 +719,8 @@
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a href="#home" class="brand" style="display:inline-flex">
-          <span class="logo-chip">
-            <img class="logo-img" src="rlc-logo.png" alt="RLC Insurance Agency" style="height:48px"
-                 onerror="this.style.display='none';this.parentElement.nextElementSibling.style.display='flex'" />
-          </span>
-          <span class="name" style="display:none"><b style="color:#fff">RLC</b><span>Insurance Agency</span></span>
+        <a href="#home" class="brand" style="display:inline-flex;align-items:center">
+          <span class="name"><b style="color:#fff">RLC</b><span>Insurance Agency</span></span>
         </a>
         <p>Premium asset protection for California families and professionals, led personally by Renee Curtis, an Allstate agency owner.</p>
       </div>

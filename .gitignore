@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local Claude Code / remember tooling state
+.remember/
+
+# Vercel CLI
+.vercel

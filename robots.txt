@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rlc-website-demo.vercel.app/sitemap.xml
